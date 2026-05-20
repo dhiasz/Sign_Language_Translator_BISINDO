@@ -74,7 +74,7 @@ while True:
         for i in range(jumlah):
 
             # countdown 3 detik
-            for detik in range(3, 0, -1):
+            for detik in range(2, 0, -1):
                 ret, frame = cap.read()
                 frame = cv2.flip(frame, 1)
 
